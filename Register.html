@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 760px)" href="style.css">
+       <link rel="stylesheet" media="screen and (min-width: 1110px)" href="style.css">
+    <link rel="icon" type="image/png" sizes="30x30" href="./logo2.png">
+    <title>19 Cart - E-commerce website for all your online shopping from Bags, shoes, drinks, book and many more.</title>
+   
+</head>
+<body id="home">
+    <!--Navbar-->
+    <nav id="container">
+        <div id="navbar">
+            <div id="logo">
+                <img class="logo-image" src="./logo2.png" alt="logo-image"/>
+                <span class="coy-name">19Cart</span>
+            </div>
+            <ul>
+
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./product-display.html">Products</a></li>
+                <li><a href="./About-us.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <!-- <form class="example" action="action_page.php">
+            <input class="search" type="text" name="search" placeholder="I'm shopping for..."/>
+            <button class="submit-btn" type="submit">Search</button> 
+            </form>      -->
+
+        <div id="product-cart">
+                <a class="wish-list" href="#">Wish-list</a>
+                <a class="shop-cart" href="#"><img class="cart-image" onclick="displayItems()" src="/new-cart-icon.png" alt="cart-image"/> <span>Cart</span></a>
+                <a class="log-in" href="log-in-form.html">Log in</a>
+        </div>
+    </nav>
+<form action="/api/post"  method="POST">
+    <div id="Register-page">
+    <P class="register-text"><a class="log-intag" href="./log-in form.html"> Log in</a>Register</P>
+    <br>
+    <input id="location" type="text" name="location" placeholder="Your Location:"/>
+    <br>
+    <input id="log-in" type="text" name="email" placeholder="Email address"/>
+    <br>
+    <input id="password" type="password" name="password" placeholder="Password"/>
+    <br>
+    <button class="submit">Create account</button> 
+    
+</div>
+</form>
+</body>
+</html>

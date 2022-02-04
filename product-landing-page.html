@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="30x30" href="./title icon.png">
+    <title>19 Cart - E-commerce website for all your online shopping from Bags, shoes, drinks, book and many more.</title>
+   
+</head>
+<body id="home">
+    <!--Navbar-->
+    <nav id="container">
+        <div id="navbar">
+            <div id="logo">
+                <img class="logo-image" src="./logo2.png"alt="logo-image"/>
+                <h1 class="coy-name">19Cart</h1>
+            </div>
+            <ul>
+
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./product-display.html">Products</a></li>
+                <li><a href="./About-us.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        
+        
+        <form class="example" action="action_page.php">
+            <input class="search" type="text" name="search" placeholder="I'm shopping for..."/>
+            <button class="submit-btn" type="submit">Search</button> 
+            </form>     
+
+        <div id="product-cart">
+                <a class="wish-list" href="#">Wish-list</a>
+                <a class="shop-cart" href="#"><img class="cart-image" onclick="displayItems()" src="/my-cart.svg" alt="cart-image"/> <span>Cart</span></a>
+                <a class="log-in" href="log-in form.html">Log in</a>
+        </div>
+        
+    </nav>
+
+    <!--Main-Body-->
+<main>
+   <!--Small-->
+   <div class="cart-overlay">
+    <div class="cart">
+        <span class="close-cart">
+          <img src="/icon-phone.svg" alt="heart-img"/>
+        </span>
+        <h2>Your Cart</h2>
+        <div class="cart-content">
+            <div class="cart-item">
+                <img src="tomi-fruit-juice.png" alt="drink-img"/>
+            </div>
+            <div>
+              <p>Leather Pink Bag</p>
+              <small>price: $50.00</small>
+              <br>
+              <a href="">Remove</a>
+          </div>
+        </div>
+    </div>
+</div>
+
+   <div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="pink-bag.png" alt="pink-bag-image"/>
+                    <div>
+                        <p>Leather Pink Bag</p>
+                        <small>price: $50.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$50.00</td>
+        </tr>
+    <br>
+    <tr>
+      <td>
+          <div class="cart-info">
+              <img src="purple-trainers.png" alt="pink-bag-image"/>
+              <div>
+                  <p>Purple Trainers with black patches</p>
+                  <small>price: $40.00</small>
+                  <br>
+                  <a href="">Remove</a>
+              </div>
+          </div>
+      </td>
+      <td><input type="number" value="1"></td>
+      <td>$40.00</td>
+  </tr>
+  <br>
+  <tr>
+    <td>
+        <div class="cart-info">
+            <img src="wine-bag.png" alt="pink-bag-image"/>
+            <div>
+                <p>Classy wine bag</p>
+                <small>price: $60.00</small>
+                <br>
+                <a href="">Remove</a>
+            </div>
+        </div>
+    </td>
+    <td><input type="number" value="1"></td>
+    <td>$60.00</td>
+</tr>
+</table>
+
+<div class="total-price">
+  <table>
+    <tr>
+      <td>Subtotal</td>
+      <td>$150.00</td>
+    </tr>
+    <tr>
+      <td>Shipping fee</td>
+      <td>$10.00</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>$160.00</td>
+    </tr>
+  </table>
+</div>
+</div>
+    <!-- <div id="display-page">
+      <div class="sneakers">
+        <img class="sneakers-img" src="" alt="image-product-1">
+      </div>
+      <div class="sneakers-text">
+        <h2>Latest Design Sneakers</h2>
+  
+        <p class="text">These High quality sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+  
+        <p class="money">$250.00</p>
+      <div id="buttons">
+        <button id="btn" ><img onclick="increment()" src="images/icon-plus.svg" alt="image"/><h4 id="count-el">0</h4><img onclick="decrement()" src="images/icon-minus.svg" alt="image1"/></button> 
+        
+        <button id="new-cart" onclick="purchase()">
+          <img  class="second-cart" src="images/my-cart.svg" alt="new-cart">
+          <p id="button-text">Add to cart</p>
+        </button>
+        <br>
+        <p id="display"></p>
+        
+        </div>  
+      </div> 
+      </div>
+    </div>
+  
+    <div id="Product-thumbnail">
+        <div class="box1"><img class="a" src="./images/image-product-1-thumbnail.jpg" alt="thumbnail 1"></div>
+        <div class="box1"><img class="a" src="./images/image-product-2-thumbnail.jpg" alt="thumbnail 2"></div>
+        <div class="box1"><img class="a" src="./images/image-product-3-thumbnail.jpg" alt="thumbnail 3"></div>
+        <div class="box1"><img class="a" src="./images/image-product-4-thumbnail.jpg" alt="thumbnail 4"></div>
+      </div> -->
+  </main>
